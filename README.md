@@ -46,6 +46,7 @@ tryhackme.com/p/DashTX | cyberdefenders.org/p/DashTX | dashtx707.github.io/Porto
 ![Sigma](https://img.shields.io/badge/Sigma-Rules-00FF41?style=flat-square&labelColor=000000)
 
 ## 🎯 `ls -la projects/`
+- **[+] MENA Threat Actor Tracker** — 29 APT + 25 ransomware groups tracked with cited sourcing, country-specific KSA/Egypt TTP breakdowns mapped to MITRE ATT&CK, Sigma detection-coverage auditing against a 3,700+ rule corpus, and monthly scheduled-routine automation.
 - **[+] Automated Weekly Threat Intelligence Pipeline** — scheduled OSINT-to-Sigma pipeline with a human-review gate before anything reaches `main`.
 - **[+] External Threat Profile Orchestration** — Mandiant-structured external threat profiling for any named org using public data only.
 - **[+] Hunt-to-Detection Closure Loop** — routes confirmed hunt findings into detection engineering, then validates with purple-team simulation.
