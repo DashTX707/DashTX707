@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ibrahim Abdlrazik
+<img src="./assets/name-banner.svg" alt="Hi, I'm Ibrahim Abdl-Razik" width="480" />
 
 <img src="./assets/terminal.gif" alt="Terminal" width="100%" />
 
