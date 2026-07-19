@@ -15,8 +15,9 @@ def main() -> None:
 
     top_langs = ", ".join(name for name, _ in stats.languages_sorted[:3]) or "n/a"
 
-    t = gifos.Terminal(width=680, height=270, xpad=14, ypad=14)
+    t = gifos.Terminal(width=700, height=270, xpad=14, ypad=14)
     t.set_prompt("guest@dashtx707:~$ ")
+    t.set_fps(10)
 
     row = 1
     t.gen_prompt(row_num=row)
@@ -26,6 +27,7 @@ def main() -> None:
     t.gen_text(text="Ibrahim Abdlrazik -- Threat Detection & CTI Specialist", row_num=row)
     row += 1
     t.gen_text(text="Senior SOC Consultant @ SIDF | MITRE ATT&CK Defender(TM)", row_num=row)
+    t.clone_frame(count=20)  # hold so the whoami output is readable
 
     row += 2
     t.gen_prompt(row_num=row)
@@ -47,6 +49,7 @@ def main() -> None:
 
     row += 2
     t.gen_prompt(row_num=row)
+    t.clone_frame(count=60)  # hold the full neofetch output so it's actually readable
 
     t.gen_gif()
 
