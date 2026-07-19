@@ -13,9 +13,9 @@ def main() -> None:
         print("ERROR: failed to fetch GitHub stats")
         sys.exit(1)
 
-    top_langs = ", ".join(name for name, _ in stats.languages_sorted[:3]) or "n/a"
+    top_langs = ", ".join(name for name, _ in stats.languages_sorted[:5]) or "n/a"
 
-    t = gifos.Terminal(width=700, height=270, xpad=14, ypad=14)
+    t = gifos.Terminal(width=700, height=360, xpad=14, ypad=14)
     t.set_prompt("guest@dashtx707:~$ ")
     t.set_fps(10)
 
@@ -45,11 +45,19 @@ def main() -> None:
         row_num=row,
     )
     row += 1
+    t.gen_text(text=f"Stars earned ......... {stats.total_stargazers}", row_num=row)
+    row += 1
+    t.gen_text(text=f"Issues opened ........ {stats.total_issues}", row_num=row)
+    row += 1
+    t.gen_text(text=f"PR reviews ........... {stats.total_pull_requests_reviewed}", row_num=row)
+    row += 1
+    t.gen_text(text=f"GitHub rank .......... {stats.user_rank}", row_num=row)
+    row += 1
     t.gen_text(text=f"Top languages ........ {top_langs}", row_num=row)
 
     row += 2
     t.gen_prompt(row_num=row)
-    t.clone_frame(count=60)  # hold the full neofetch output so it's actually readable
+    t.clone_frame(count=80)  # hold the full neofetch output so it's actually readable
 
     t.gen_gif()
 
