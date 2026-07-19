@@ -2,7 +2,7 @@
 
 # Ibrahim Abdlrazik
 
-<img src="./assets/terminal.gif" alt="Terminal" width="600" />
+<img src="./assets/terminal.gif" alt="Terminal" width="460" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=700&lines=Threat+Detection+%26+CTI+Specialist;Senior+SOC+Consultant+%40+SIDF;MITRE+ATT%26CK+Defender%E2%84%A2;Blue+Team+%7C+DFIR+%7C+Threat+Hunting)](https://dashtx707.github.io/Portofolio/)
 

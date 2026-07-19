@@ -15,7 +15,7 @@ def main() -> None:
 
     top_langs = ", ".join(name for name, _ in stats.languages_sorted[:3]) or "n/a"
 
-    t = gifos.Terminal(width=760, height=340, xpad=14, ypad=14)
+    t = gifos.Terminal(width=680, height=270, xpad=14, ypad=14)
     t.set_prompt("guest@dashtx707:~$ ")
 
     row = 1

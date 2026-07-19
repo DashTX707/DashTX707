@@ -12,7 +12,7 @@ jobs:
       contents: write
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GIFOS_GENERAL_COLOR_SCHEME: monokai
+      GIFOS_GENERAL_COLOR_SCHEME: dashtx
       GIFOS_GENERAL_USER_NAME: DashTX707
       GIFOS_FILES_OUTPUT_GIF_NAME: terminal
     steps:
@@ -27,6 +27,11 @@ jobs:
 
       - name: Install github-readme-terminal
         run: python -m pip install --upgrade pip github-readme-terminal
+
+      - name: Install custom color scheme
+        run: |
+          mkdir -p ~/.config/gifos
+          cp .github/scripts/ansi_escape_colors.toml ~/.config/gifos/ansi_escape_colors.toml
 
       - name: Generate terminal GIF
         run: python .github/scripts/gen_terminal_gif.py

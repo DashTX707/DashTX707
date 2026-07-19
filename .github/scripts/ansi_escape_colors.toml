@@ -1,0 +1,24 @@
+[dashtx]
+        [dashtx.default_colors]
+        fg = "#00FF41"
+        bg = "#0D1117"
+
+        [dashtx.normal_colors]
+        black = "#0D1117"
+        red = "#00FF41"
+        green = "#00FF41"
+        yellow = "#00FF41"
+        blue = "#00FF41"
+        magenta = "#00FF41"
+        cyan = "#00FF41"
+        white = "#00FF41"
+
+        [dashtx.bright_colors]
+        black = "#0D1117"
+        red = "#00FF41"
+        green = "#00FF41"
+        yellow = "#00FF41"
+        blue = "#00FF41"
+        magenta = "#00FF41"
+        cyan = "#00FF41"
+        white = "#00FF41"
