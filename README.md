@@ -74,6 +74,10 @@ tryhackme.com/p/DashTX | cyberdefenders.org/p/DashTX | dashtx707.github.io/Porto
 **Conference Workshops** — _coming soon_
 **Podcasts** — _coming soon_
 
+## 📡 `tail -f /var/log/activity.log`
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ## 📊 `uptime --stats`
 
 <div align="center">
