@@ -78,11 +78,11 @@ tryhackme.com/p/DashTX | cyberdefenders.org/p/DashTX | dashtx707.github.io/Porto
 
 ## 📡 `tail -f /var/log/activity.log`
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#9](https://github.com/DashTX707/DashTX707/pull/9) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
-2. 💪 Opened PR [#9](https://github.com/DashTX707/DashTX707/pull/9) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
-3. 🎉 Merged PR [#8](https://github.com/DashTX707/DashTX707/pull/8) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
-4. 💪 Opened PR [#8](https://github.com/DashTX707/DashTX707/pull/8) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
-5. 🎉 Merged PR [#7](https://github.com/DashTX707/DashTX707/pull/7) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
+1. 🎉 Merged PR [#10](https://github.com/DashTX707/DashTX707/pull/10) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
+2. 💪 Opened PR [#10](https://github.com/DashTX707/DashTX707/pull/10) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
+3. 🎉 Merged PR [#9](https://github.com/DashTX707/DashTX707/pull/9) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
+4. 💪 Opened PR [#9](https://github.com/DashTX707/DashTX707/pull/9) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
+5. 🎉 Merged PR [#8](https://github.com/DashTX707/DashTX707/pull/8) in [DashTX707/DashTX707](https://github.com/DashTX707/DashTX707)
 <!--END_SECTION:activity-->
 
 ## 📊 `uptime --stats`
