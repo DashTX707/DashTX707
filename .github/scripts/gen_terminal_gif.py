@@ -36,8 +36,6 @@ def main() -> None:
     row += 1
     t.gen_text(text=f"Followers ............ {stats.total_followers}", row_num=row)
     row += 1
-    t.gen_text(text=f"Repo contributions ... {stats.total_repo_contributions}", row_num=row)
-    row += 1
     t.gen_text(text=f"Commits (last yr) .... {stats.total_commits_last_year}", row_num=row)
     row += 1
     t.gen_text(
