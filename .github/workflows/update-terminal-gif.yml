@@ -46,6 +46,9 @@ jobs:
           fi
           mv "$gif_path" assets/terminal.gif
 
+      - name: Make terminal GIF background transparent
+        run: python .github/scripts/make_gif_transparent.py assets/terminal.gif
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
